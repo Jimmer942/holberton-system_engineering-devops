@@ -1,1 +1,1 @@
-Is a script that prints the absolute path name of the current working directory.
+This project contains a varios scripts that start some Linux commands
