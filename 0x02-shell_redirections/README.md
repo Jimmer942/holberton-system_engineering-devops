@@ -1,0 +1,1 @@
+This directory contains some files abour how to use inputs and outputs on Linux
