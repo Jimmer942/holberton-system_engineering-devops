@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | find . -type d | wc -l
+la -lRa | find . -type d -printf '.' | wc -c
