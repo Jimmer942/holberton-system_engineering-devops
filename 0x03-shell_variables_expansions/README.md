@@ -1,0 +1,1 @@
+This folder contain a serious of scripts to manage vriables
