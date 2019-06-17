@@ -1,2 +1,0 @@
-#!/bin/bash
-echo ${_sum=$((128+_TRUEKNOWLEDGE))}
