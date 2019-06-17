@@ -1,0 +1,2 @@
+#!/bin/bash
+echo ${_sum=$((POWER/DIVIDE))}
