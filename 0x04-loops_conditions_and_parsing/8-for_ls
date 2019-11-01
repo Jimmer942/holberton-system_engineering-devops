@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script prints Holberton School 10 times using for loop
+for i in *
+do
+    [[ -e "$i" ]]
+    echo "$i" | cut -d '-' -f2
+done
