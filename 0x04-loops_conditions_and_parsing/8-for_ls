@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script prints Holberton School 10 times using for loop
+# This script prints the all content of the current directory
 for i in *
 do
     [[ -e "$i" ]]
