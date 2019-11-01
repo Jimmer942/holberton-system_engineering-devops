@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 # This script prints Holberton School 10 times using while loop
 p='Holberton School'
+a='Holberton School\nHi'
 i=1
 while [ $i -le 10 ]
 do
     if [ $i == 9 ]
     then
-	echo "Hi"
+	echo -e "$a"
     else
 	echo "$p"
     fi
