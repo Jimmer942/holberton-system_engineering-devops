@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script prints Holberton School 10 times using until loop
+p='Holberton School'
+i=10
+until [  $i -lt 1 ]
+do
+    echo "$p"
+    let i--
+done
