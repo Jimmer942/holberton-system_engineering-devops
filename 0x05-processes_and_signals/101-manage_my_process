@@ -11,6 +11,8 @@ case "$1" in
 	echo "manage_my_process stopped"
 	;;
     restart)
+	pkill -f manage_my_process &
+	rm /var/run/my_process.pid
 	sudo ./manage_my_process &
 	echo "manage_my_process restarted"
 	;;
