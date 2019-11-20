@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that listenport 98
+nc -l 98
