@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-import requests
 import operator
+import requests
 
 
 def count_w(word, title):
@@ -39,15 +39,16 @@ def count_words(subreddit, word_list, nexT="", count={}):
         aux = sorted(count.items(), key=operator.itemgetter(0), reverse=False)
         aux1 = {}
         flag = True
+        lk = []
+        lv = []
         for element in aux:
-            aux1[element[0]] = element[1]
+            lk.append(element[0])
+            lv.append(element[1])
+        aux1 = dict(zip(lk, lv))
         aux = sorted(aux1.items(), key=operator.itemgetter(1), reverse=True)
-        aux1 = {}
         for element in aux:
-            aux1[element[0]] = element[1]
-        for key, value in aux1.items():
-            if (value != 0):
-                print("{}: {}".format(key, value))
+            if (element[1] != 0):
+                print("{}: {}".format(element[0], element[1]))
                 flag = False
         if (flag):
             print("")
